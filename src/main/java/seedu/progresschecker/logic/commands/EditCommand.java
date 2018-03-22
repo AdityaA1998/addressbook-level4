@@ -37,8 +37,8 @@ public class EditCommand extends UndoableCommand {
 
     public static final String COMMAND_WORD = "edit";
     public static final String COMMAND_ALIAS = "ed";
-    public static final String COMMAND_FORMAT = COMMAND_WORD + " "
-                        + "INDEX "
+
+    public static final String COMMAND_FORMAT = COMMAND_WORD + " " + "INDEX "
             + "[" + PREFIX_NAME + "NAME] "
             + "[" + PREFIX_PHONE + "PHONE] "
             + "[" + PREFIX_EMAIL + "EMAIL] "
